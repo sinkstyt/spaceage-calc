@@ -12,7 +12,7 @@ describe('Mars', () => {
   })
 
   test('should correctly convert life expectency in Earth years to Mars years, rounded to nearest integer', () => {
-    const earthYears = new Mars(77);
-    expect(Mars.convertFromEarth(marsInstance.earthYearsExpected)).toEqual(41);
+    let marsExpected = marsInstance.convertFromEarth();
+    expect(marsExpected).toEqual(41);
   });
 });
