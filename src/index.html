@@ -6,6 +6,40 @@
   <title>Your Life Expectancy by Planet</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Discover Your Life Expectancy in ________ Years:</h1>
+      <ul>
+        <li>Mercury</li>
+        <li>Venus</li>
+        <li>Earth</li>
+        <li>Mars</li>
+        <li>Jupitor</li>
+      </ul>
+      <p class="subtitle-text">Once you have completed the three prompts below and pressed "Submit", you will be able to click the planet names above to convert your life expectancy into these planets' "years"</p>
+    </div>
+    <form action="submit" class="form-check user-info">
+      <div>
+        <h3>Current Age</h3>
+        <label for="current-age">I am currently ______ many years old.</label>
+        <input type="number" min="4" max="124" id="current-age">
+      </div>
+      <div>
+        <h3>Sex</h3>
+        <label for="sex">My sex at birth</label>
+        <input type="text" placeholder="prefer not to disclose" id="sex">
+      </div>
+      <div>
+        <h3>Where I live or have lived most of my life</h3>
+        <label for="country-input"></label>
+        <input type="text" id="country-input">
+      </div>
+      <div class="results">
+        <h3>Here's my life expectancy</h3>
+        <h4>for planet <span class="planet-selected"></span>:</h4>
+        <h2 class="years-expected"></h2>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
