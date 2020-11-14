@@ -105,6 +105,6 @@ _Jest_
 Copyright (c) 2020 **_Tyler Sinks_**
 
 [^bignote]: If you're having trouble finding that nice green "Code" button:
-    * a .png of it at time of README composition is this: ![the green Code button seen near the top right of any repository hosted on GitHub](img/greenCodeButton.png)
+    * a .png of it at time of README composition is this: ![the green Code button seen near the top right of any repository hosted on GitHub](src/assets/img/greenCodeButton.png)
     * Alternatively &mdash; should you not be able to use this button to load this project's URL to your clipboard &mdash; I give the URL to you here as well:
     https://github.com/sinkstyt/spaceage-calc.git
