@@ -11,5 +11,8 @@ describe('Jupiter', () => {
     expect(jupiterInstance.earthYearsExpected).toEqual(64);
   });
 
-
+  test('should correctly convert from Earth years life expectancy to Jupiter years, rounded to nearest integer', () => {
+    let jupiterYears = jupiterInstance.convertFromEarth();
+    expect(jupiterYears).toEqual(5);
+  });
 });
