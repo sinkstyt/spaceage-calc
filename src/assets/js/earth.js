@@ -1,8 +1,8 @@
-export default function Earth(currentAgeYears, sex, activityLevel) {
-
+export default function Earth(currentYears, sex, active) {
+  this.currentYears = currentYears;
 }
 
-Earth.prototype.checkCountry = function() {
+Earth.prototype.adjustForCountry = function(country) {
 
 }
 
@@ -10,7 +10,7 @@ Earth.prototype.adjustByAge = function() {
 
 }
 
-Earth.prototype.adjActivity = function() {
+Earth.prototype.adjustByActivity = function() {
 
 }
 
