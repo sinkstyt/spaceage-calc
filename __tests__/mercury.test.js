@@ -11,5 +11,8 @@ describe('Mercury', () => {
     expect(mercuryInstance.earthYearsExpected).toEqual(92);
   });
 
-
+  test('should convert from Earth years life expectancy to Mercury years, rounded to the nearest integer', () => {
+    const mercuryYears = mercuryInstance.convertFromEarth();
+    expect(mercuryYears).toEqual(383);
+  });
 });
